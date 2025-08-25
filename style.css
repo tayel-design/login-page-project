@@ -1,0 +1,21 @@
+body
+{
+    min-height: 100vh;
+    background: #9fd6a2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:fantasy;
+}
+.conatiner
+{
+    width: 900px;
+    margin: 40px auto;
+}
+.card
+{
+    display: flex;
+    background: rgba(231, 49, 49, 0.7);
+    border-radius: 25px;
+    overflow: hidden;
+}
