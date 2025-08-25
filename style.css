@@ -1,13 +1,13 @@
 body
 {
     min-height: 100vh;
-    background: #9fd6a2;
+    background: #220001;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family:fantasy;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.conatiner
+.container
 {
     width: 900px;
     margin: 40px auto;
@@ -21,7 +21,7 @@ body
 }
 .card-left
 {
-    background: wheat;
+    background: #220001;
     flex: 1;
     display: flex;
     align-items: center;
@@ -40,6 +40,10 @@ body
 {
     flex: 1;
     padding: 54px 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 350px;
     top: 30px;
     font-size: 14px;
     color: rgb(37, 35, 35) ;
@@ -72,7 +76,7 @@ form h2
 form p
 {
     margin-top: 0;
-    color: rgb(79, 83, 81);
+    color: rgb(250, 246, 194);
     font-size: 1;
 }
 .input-box
@@ -104,7 +108,7 @@ form p
 .forget-password a
 {
     text-decoration: none;
-    color: gray;
+    color: rgb(250, 246, 194);
 }
 .login-btn
 {
@@ -125,7 +129,7 @@ form p
 .or
 {
     text-align: center;
-    color: #777;
+    color: rgb(250, 246, 194);
     margin: 12px;
     font-size: 1rem;
 }
@@ -150,8 +154,5 @@ form p
     cursor: pointer;
     transition: box-shadow 0.15s;
 }
-.social img
-{
-    width: 22px;
-    height: 22px;
-}
+
+
