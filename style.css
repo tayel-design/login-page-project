@@ -36,3 +36,122 @@ body
     border-radius: 16px;
     object-fit: contain;
 }
+.card-right
+{
+    flex: 1;
+    padding: 54px 45px;
+    top: 30px;
+    font-size: 14px;
+    color: rgb(37, 35, 35) ;
+}
+.top-link
+{
+    position: absolute;
+    right: 45px;
+    top: 30px;
+    font-size: 15px;
+}
+.top-link a
+{
+    color: blue;
+    text-decoration: none;
+    font-weight: 100;
+}
+form
+{
+    display: flex ;
+    flex-direction: column;
+    gap: 20px;
+}
+form h2
+{
+    margin-bottom: 0;
+    font-size: 2rem;
+    color: azure;
+}
+form p
+{
+    margin-top: 0;
+    color: rgb(79, 83, 81);
+    font-size: 1;
+}
+.input-box
+{
+    position: relative;
+}
+.input-box input
+{
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    background: white;
+    font-size: 1rem;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+.input-box .icon
+{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    font-size: 1.2rem;
+}
+.forget-password
+{
+    text-align: right;
+    font-size: 1rem;
+}
+.forget-password a
+{
+    text-decoration: none;
+    color: gray;
+}
+.login-btn
+{
+    background-color: #680202 ;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 1rem;
+    padding: 13px;
+    margin-top: 10px;
+    transition: background 0.2s;
+    cursor: pointer;
+}
+.login-btn:hover
+{
+    background: #2d0101;
+}
+.or
+{
+    text-align: center;
+    color: #777;
+    margin: 12px;
+    font-size: 1rem;
+}
+.socials
+{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 7px;
+}
+.social
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(100,100,100,0.07);
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+}
+.social img
+{
+    width: 22px;
+    height: 22px;
+}
