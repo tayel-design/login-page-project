@@ -154,5 +154,12 @@ form p
     cursor: pointer;
     transition: box-shadow 0.15s;
 }
+@media (max-width: 800px)
+{
+    .card-left
+    {
+        display: none;
+    }
+}
 
 
